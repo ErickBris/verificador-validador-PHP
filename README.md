@@ -1,2 +1,2 @@
 # verificador
-Verificador
+Verificador, Validador PHP
