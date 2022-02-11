@@ -732,7 +732,7 @@ class GenValidator{
     private function existsDate($_format , $_recibed_date , $name_value="") {
         //exit($name_value);
         if ( !$this->isValidPatternDate( $_format , $_recibed_date ) ) {
-            echo 'BAD_DATE' , $_recibed_date , $name_value);
+            echo 'BAD_DATE' , $_recibed_date , $name_value;
             return false;
         }
         $_format = $this->getDateTimeFormat($_format);
